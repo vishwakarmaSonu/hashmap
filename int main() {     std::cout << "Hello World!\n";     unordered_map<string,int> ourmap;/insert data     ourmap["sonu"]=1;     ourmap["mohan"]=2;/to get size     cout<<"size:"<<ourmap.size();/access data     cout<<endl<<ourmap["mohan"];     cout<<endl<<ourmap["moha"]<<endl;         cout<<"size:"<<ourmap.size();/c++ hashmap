@@ -1,0 +1,18 @@
+int main() {
+    std::cout << "Hello World!\n";
+    unordered_map<string,int> ourmap;
+    // insert data
+    ourmap["sonu"]=1;
+    ourmap["mohan"]=2;
+    //to get size
+    cout<<"size:"<<ourmap.size();
+    //access data
+    cout<<endl<<ourmap["mohan"];
+    cout<<endl<<ourmap["moha"]<<endl;
+        cout<<"size:"<<ourmap.size();
+    //delete data
+    ourmap.erase("moha");
+        cout<<"size:"<<endl<<ourmap.size();
+
+    
+}
